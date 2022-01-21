@@ -1,0 +1,15 @@
+[{
+        "jenis": "kiloan",
+        "harga": 5000
+    },
+    {
+        "jenis": "selimut",
+        "harga": 4000
+    }, {
+        "jenis": "bed_cover",
+        "harga": 3000
+    }, {
+        "jenis": "kaos",
+        "harga": 1000
+    }
+]

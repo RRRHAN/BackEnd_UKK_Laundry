@@ -1,0 +1,6 @@
+[
+    { "id_transaksi": 1, "id_paket": 1, "qty": 3 },
+    { "id_transaksi": 2, "id_paket": 2, "qty": 5 },
+    { "id_transaksi": 3, "id_paket": 3, "qty": 9 },
+    { "id_transaksi": 4, "id_paket": 4, "qty": 15 }
+]

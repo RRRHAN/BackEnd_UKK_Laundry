@@ -1,0 +1,23 @@
+[{
+        "nama": "Raihan F",
+        "alamat": "singosari",
+        "jenis_kelamin": "laki-laki",
+        "tlp": 1234567
+    },
+    {
+        "nama": "icang",
+        "alamat": "probolinggo",
+        "jenis_kelamin": "laki-laki",
+        "tlp": 1234598
+    }, {
+        "nama": "shiva",
+        "alamat": "singosari",
+        "jenis_kelamin": "perempuan",
+        "tlp": 12998598
+    }, {
+        "nama": "divana",
+        "alamat": "tuban",
+        "jenis_kelamin": "perempuan",
+        "tlp": 1235598
+    }
+]

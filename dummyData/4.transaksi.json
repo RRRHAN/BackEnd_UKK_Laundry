@@ -1,0 +1,37 @@
+[{
+        "id_member": 1,
+        "tgl": "2022-01-18T00:11:45.653Z",
+        "batas_waktu": "2022-01-22T00:11:45.653Z",
+        "tgl_bayar": "2022-01-20T00:11:45.653Z",
+        "status": "proses",
+        "dibayar": "dibayar",
+        "id_user": 1
+    },
+    {
+        "id_member": 2,
+        "tgl": "2022-01-21T00:11:45.653Z",
+        "batas_waktu": "2022-01-25T00:11:45.653Z",
+        "tgl_bayar": "2022-01-21T00:11:45.653Z",
+        "status": "baru",
+        "dibayar": "dibayar",
+        "id_user": 1
+    },
+    {
+        "id_member": 3,
+        "tgl": "2022-01-18T00:11:45.653Z",
+        "batas_waktu": "2022-01-22T00:11:45.653Z",
+        "tgl_bayar": "2022-01-20T00:11:45.653Z",
+        "status": "selesai",
+        "dibayar": "belum_dibayar",
+        "id_user": 2
+    },
+    {
+        "id_member": 4,
+        "tgl": "2022-01-15T00:11:45.653Z",
+        "batas_waktu": "2022-01-20T00:11:45.653Z",
+        "tgl_bayar": "2022-01-16T00:11:45.653Z",
+        "status": "diambil",
+        "dibayar": "dibayar",
+        "id_user": 2
+    }
+]
