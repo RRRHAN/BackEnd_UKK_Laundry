@@ -3,6 +3,9 @@ const express = require("express"),
     detil_transaksi = require("../models/index").detil_transaksi
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+const grabData = require("../grabData")
+
+const attribute = ["id_transaksi", "id_paket", "qty"]
 
 app.get("/", async(req, res) => {
     detil_transaksi.findAll()

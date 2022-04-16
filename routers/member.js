@@ -3,6 +3,9 @@ const express = require("express"),
     member = require("../models/index").member
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+const grabData = require("../grabData")
+
+const attribute = ["nama", "alamat", "jenis_kelamin", "tlp"]
 
 app.get("/", async(req, res) => {
     member.findAll()
@@ -34,7 +37,8 @@ app.get("/:id", async(req, res) => {
 })
 
 app.post("/", async(req, res) => {
-    member.create(req.body)
+    const data = grabData(attribute, req.body)
+    member.create(data)
         .then(result => {
             res.json({
                 data: result,
@@ -52,7 +56,8 @@ app.put("/:id", async(req, res) => {
     const param = {
         id: req.params.id
     }
-    member.update(req.body, { where: param })
+    const data = grabData(attribute, req.body)
+    member.update(data, { where: param })
         .then(result => {
             res.json({
                 data: result,

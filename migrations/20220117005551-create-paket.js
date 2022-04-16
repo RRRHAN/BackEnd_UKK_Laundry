@@ -9,7 +9,7 @@ module.exports = {
                 type: Sequelize.INTEGER
             },
             jenis: {
-                type: Sequelize.ENUM("kiloan", "selimut", "bed_cover", "kaos")
+                type: Sequelize.STRING
             },
             harga: {
                 type: Sequelize.INTEGER

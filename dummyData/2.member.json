@@ -9,15 +9,41 @@
         "alamat": "probolinggo",
         "jenis_kelamin": "laki-laki",
         "tlp": 1234598
-    }, {
+    },
+    {
         "nama": "shiva",
         "alamat": "singosari",
         "jenis_kelamin": "perempuan",
         "tlp": 12998598
-    }, {
+    },
+    {
         "nama": "divana",
         "alamat": "tuban",
         "jenis_kelamin": "perempuan",
         "tlp": 1235598
+    },
+    {
+        "nama": "lewandowski",
+        "alamat": "polandia",
+        "jenis_kelamin": "Laki-laki",
+        "tlp": 1289598
+    },
+    {
+        "nama": "neymar",
+        "alamat": "Brazil",
+        "jenis_kelamin": "Laki-laki",
+        "tlp": 454654
+    },
+    {
+        "nama": "gavi",
+        "alamat": "spanyol",
+        "jenis_kelamin": "Laki-Laki",
+        "tlp": 353335
+    },
+    {
+        "nama": "kimmich",
+        "alamat": "Jerman",
+        "jenis_kelamin": "Laki-laki",
+        "tlp": 3226262
     }
 ]

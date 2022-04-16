@@ -69,7 +69,7 @@ app.delete("/:id", async(req, res) => {
     const param = {
         id: req.params.id
     }
-    barang.destroy({ where: param })
+    paket.destroy({ where: param })
         .then(result => {
             res.json({
                 data: result,

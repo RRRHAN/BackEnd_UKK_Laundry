@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
         }
     };
     paket.init({
-        jenis: DataTypes.ENUM("kiloan", "selimut", "bed_cover", "kaos"),
+        jenis: DataTypes.STRING,
         harga: DataTypes.INTEGER
     }, {
         sequelize,

@@ -3,6 +3,9 @@ const express = require("express"),
     user = require("../models/index").user
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+const grabData = require("../grabData")
+
+const attribute = ["nama", "username", "password", "role"]
 
 app.get("/", async(req, res) => {
     user.findAll()
@@ -34,7 +37,8 @@ app.get("/:id", async(req, res) => {
 })
 
 app.post("/", async(req, res) => {
-    user.create(req.body)
+    const data = grabData(attribute, req.body)
+    user.create(data)
         .then(result => {
             res.json({
                 data: result,
@@ -52,7 +56,8 @@ app.put("/:id", async(req, res) => {
     const param = {
         id: req.params.id
     }
-    user.update(req.body, { where: param })
+    const data = grabData(attribute, req.body)
+    user.update(data, { where: param })
         .then(result => {
             res.json({
                 data: result,
